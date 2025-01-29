@@ -1,0 +1,149 @@
+U-Boot 2009.08-lab126 (Jun 29 2019 - 10:27:24)
+
+
+CPU: Freescale i.MX6 family TO0.0 at 996 MHz
+
+Temperature:   33 C, calibration data 0x5d054d5f
+
+mx6sl pll1: 996MHz
+
+mx6sl pll2: 528MHz
+
+mx6sl pll3: 480MHz
+
+mx6sl pll8: 50MHz
+
+ipg clock     : 66000000Hz
+
+ipg per clock : 24000000Hz
+
+uart clock    : 80000000Hz
+
+cspi clock    : 60000000Hz
+
+ahb clock     : 132000000Hz
+
+axi clock   : 198000000Hz
+
+emi_slow clock: 22000000Hz
+
+ddr clock     : 396000000Hz
+
+usdhc1 clock  : 198000000Hz
+
+usdhc2 clock  : 198000000Hz
+
+usdhc3 clock  : 198000000Hz
+
+Startup console output:
+
+usdhc4 clock  : 198000000Hz
+
+MMC:  FSL_ESDHC: 0,FSL_ESDHC: 1,FSL_ESDHC: 2
+
+Board: Muscat WFO
+
+Boot Reason: [ POR ]
+
+Boot Device: NAND
+
+Board Id: 0670509174460UHY
+
+S/N: G090G105745708VE
+
+I2C:   ready
+
+DRAM:  512 MB
+
+Using default environment
+
+
+In:    serial
+
+Out:   serial
+
+Err:   serial
+
+Quick Memory Test 0x80000000, 0x1fff0000
+
+POST done in 111 ms
+
+Battery voltage: 4008 mV
+
+
+Hit any key to stop autoboot:  1  0 
+
+uboot > 
+
+##################################################
+
+printenv output:
+
+bootdelay=1
+
+baudrate=115200
+
+loadaddr=0x80800000
+
+rd_loadaddr=(0x80800000 + 0x300000)
+
+bootcmd=bootm 0x41000
+
+failbootcmd=panic
+
+loglevel=5
+
+bootcmd_diags=bootm 0xE41000
+
+bootcmd_factory=bist halt
+
+bootcmd_fastboot=bist fastboot
+
+stdin=serial
+
+stdout=serial
+
+stderr=serial
+
+post_hotkeys=0
+
+bootargs=
+
+#################################################
+
+rootpw: fiona3a0
+
+#################################################
+
+Interesting MMC addresses
+
+0x5de00 - 0x5df7 all 0xFF
+0x5e000 - SN
+0x5e030 - MAC
+0x5e040 - ? - "sec"
+0x5e060 - PCB Rev
+0x5e1f0 - abcdefghhgfedcba
+
+0x5f000 - fastboot - "bootmode"
+0x5f010 - normal - "postmode"
+
+
+#################################################
+
+Code Notes
+
+defconfig logging:
+#CONFIG_LOG=y
+#CONFIG_LOG_DEFAULT_LEVEL=7
+#CONFIG_LOG_MAX_LEVEL=7
+#CONFIG_LOG_CONSOLE=y
+
+common.h logging:
+// #ifndef CONFIG_SPL_BUILD
+// #ifndef DEBUG
+// //#define DEBUG
+// #endif
+// #ifndef LOG_DEBUG
+// //#define LOG_DEBUG
+// #endif
+// #endif

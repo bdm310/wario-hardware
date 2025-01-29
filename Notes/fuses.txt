@@ -1,0 +1,12 @@
+Fuse Figuring:
+
+From SBMR:
+BT_MODE_0	= b0 
+BT_MODE_1	= b0
+DIR_BT_DIS	= b0
+BT_FUSE_SEL	= b1
+SE_CONFIG	= b01
+
+BOOT_CFG(1:4)	= 0x00000af0 - eMMC boot, fast mode, 1 bit, USDHC-2
+0x460		= 0x00000010 - BT_FUSE_SEL
+

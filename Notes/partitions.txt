@@ -1,0 +1,19 @@
+Disk /dev/mmcblk0: 3776 MB, 3959422976 bytes, 7733248 sectors
+120832 cylinders, 4 heads, 16 sectors/track
+Units: cylinders of 64 * 512 = 32768 bytes
+
+Device       Boot StartCHS    EndCHS        StartLBA     EndLBA    Sectors  Size Id Type
+/dev/mmcblk0p1 *  1023,3,16   1023,3,16        65536     987135     921600  450M 83 Linux
+/dev/mmcblk0p2    1023,3,16   1023,3,16       987136    1118207     131072 64.0M 83 Linux
+/dev/mmcblk0p3    1023,3,16   1023,3,16      1118208    1249279     131072 64.0M 83 Linux
+/dev/mmcblk0p4    1023,3,16   1023,3,16      1249280    7634943    6385664 3118M  b Win95 FAT32
+Disk /dev/mmcblk0boot1: 2 MB, 2097152 bytes, 4096 sectors
+64 cylinders, 4 heads, 16 sectors/track
+Units: cylinders of 64 * 512 = 32768 bytes
+
+Disk /dev/mmcblk0boot1 doesn't contain a valid partition table
+Disk /dev/mmcblk0boot0: 2 MB, 2097152 bytes, 4096 sectors
+64 cylinders, 4 heads, 16 sectors/track
+Units: cylinders of 64 * 512 = 32768 bytes
+
+Disk /dev/mmcblk0boot0 doesn't contain a valid partition table

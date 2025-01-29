@@ -1,0 +1,225 @@
+Settings firmware version is 5.12.1
+
+## Booting kernel from Legacy Image at 80800000 ...
+
+   Image Name:   Linux-3.0.35-lab126
+
+   Image Type:   ARM Linux Kernel Image (uncompressed)
+
+   Data Size:    3047928 Bytes =  2.9 MB
+
+   Load Address: 80008000
+
+   Entry Point:  80008000
+
+   Verifying Checksum ... OK
+
+   Loading Kernel Image ... OK
+
+OK
+
+
+Starting kernel ...
+
+
+[    0.096524] 
+[    0.098018] boot: C def:rst:reset=watchdog
+[    0.265101] pmic_soda_connects_notify_otg_out:423
+[    0.281701] LPDDR2 MfgId: 0x5 [Nanya]
+[    0.285555] 
+[    0.285558] just text: vaddr c014cfdc, va 0xc014c200 pa 0x801000c3 attr 0x6
+[    0.293837] 
+[    0.293839] nmx6sl_wfi_iram: vaddr e084e000, va 0xe084e200 pa 0x904043 attr 0x2
+[    0.306894] 
+[    0.306897] mx6sl_ddr: vaddr e0856000, va 0xe0856200 pa 0x905043 attr 0x2
+[    0.315214] 
+[    0.315216] mx6sl_iomux: vaddr f40e0000, va 0xf40e0200 pa 0x20110c3 attr 0x149
+[    0.323939] 
+[    0.323942] ANATOP: vaddr f40c8000, va 0xf40c8200 pa 0x20110c3 attr 0x149
+[    0.332327] 
+[    0.332329] CCM: vaddr f40c4000, va 0xf40c4200 pa 0x20110c3 attr 0x149
+[    0.342404] 
+[    0.342407] MMDC_P0: vaddr f41b0000, va 0xf41b0200 pa 0x21110c3 attr 0x149
+[    0.355838] 
+[    0.355840] L2: vaddr f2a02000, va 0xf2a02200 pa 0xa02043 attr 0x149
+[    0.364784] 
+[    0.364787] arm perif: vaddr f2a00000, va 0xf2a00200 pa 0xa00043 attr 0x149
+3.0.35-lab126 #2 PREEMPT Sat Jun 29 10:35:45 UTC 2019 armv7l
+Press [ENTER] for recovery menu...       0 /BOOTING DEFAULT.
+IP-Config: no devices to configure
+kinit: Mounted root (ext3 filesystem) readonly.
+info sytem:mounted_proc::
+info system:mounted_sys::
+info system:sy00::
+info system:mounted_dev::
+info milestone:6.73:49.1:49.1
+info milestone:6.77:49.2:49.2
+info milestone:6.80:49.3:49.3
+info milestone:6.87:49.4:49.4
+info milestone:6.90:49.5:49.5
+info sytem:mounted_tmpfs::
+info milestone:6.99:sy50:sy50
+info system:start:time=7010:time=7010
+info hardware:no_wan:: WiFi only device. No WAN found
+info system:config:platform=wario,board=muscat,rev=05,proto=Y,wifi=Y,wan=N:platform=wario,board=muscat,rev=05,proto=Y,wifi=Y,wan=N
+info milestone:7.18:sy51:sy51
+lipc-send-event[851]: W def:lipc:method=LipcOpenEx service=com.lab126.hal:Method has been deprecated.
+
+lipc-send-event[850]: W def:lipc:method=LipcOpenEx service=com.lab126.hal:Method has been deprecated.
+
+lipc-send-event[850]: E lipc:con::Connection error(Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory)
+
+lipc-send-event[850]: C def:dbusi::Failed to init dbus
+
+lipc-send-event[850]: E def:open::Failed to open LIPC
+
+lipc-send-event[850]: E def:fail:source=com.lab126.hal, event=usbPlugIn:Sending event failed
+
+lipc-send-event[851]: E lipc:con::Connection error(Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory)
+
+lipc-send-event[851]: C def:dbusi::Failed to init dbus
+
+lipc-send-event[851]: E def:open::Failed to open LIPC
+
+lipc-send-event[851]: E def:fail:source=com.lab126.hal, event=usbPlugIn:Sending event failed
+
+info milestone:8.04:sy99:sy99
+info system:done:time=8070:time=8070
+crond[867]: crond (busybox 1.28.3) started, log level 8
+
+
+init.exe: sshd main process (866) terminated with status 127
+
+init.exe: sshd main process ended, respawning
+
+init.exe: recevent pre-start process (870) terminated with status 1
+
+
+
+
+
+
+
+Welcome to Kindle!
+
+
+
+kindle login: info milestone:8.39:sc01:sc01
+info system_fs_loopbacks:mountingfs:Mounting compressed directories filesystem images:Mounting compressed directories filesystem images
+info milestone:8.41:sc02:sc02
+info milestone:8.45:/usr/share/X11/xkb:/usr/share/X11/xkb
+info system_fs_loopbacks:mounted:Image /usr/share/X11/xkb.sqsh mounted:Image /usr/share/X11/xkb.sqsh mounted
+info milestone:8.49:3:3
+info milestone:8.50:sc05:sc05
+info milestone:8.52:/usr/java/lib/fonts:/usr/java/lib/fonts
+info system_fs_loopbacks:mounted:Image /usr/java/lib/fonts.sqsh mounted:Image /usr/java/lib/fonts.sqsh mounted
+info milestone:8.56:4:4
+info milestone:8.56:sc05:sc05
+info milestone:8.58:/etc/kdb.src:/etc/kdb.src
+info system_fs_loopbacks:mounted:Image /etc/kdb.src.sqsh mounted:Image /etc/kdb.src.sqsh mounted
+info milestone:8.62:5:5
+info milestone:8.63:sc05:sc05
+info milestone:8.64:/usr/lib/locale:/usr/lib/locale
+info system_fs_loopbacks:mounted:Image /usr/lib/locale.sqsh mounted:Image /usr/lib/locale.sqsh mounted
+info milestone:8.68:6:6
+info milestone:8.69:sc05:sc05
+info milestone:8.70:/usr/share/keyboard:/usr/share/keyboard
+info system_fs_loopbacks:mounted:Image /usr/share/keyboard.sqsh mounted:Image /usr/share/keyboard.sqsh mounted
+info milestone:8.83:7:7
+info milestone:8.84:sc05:sc05
+info milestone:8.85:/opt/var/local:/opt/var/local
+info system_fs_loopbacks:mounted:Image /opt/var/local.sqsh mounted:Image /opt/var/local.sqsh mounted
+info milestone:8.89:8:8
+info milestone:8.90:sc05:sc05
+info milestone:8.91:sc07:sc07
+info system:emiting_event:mounted_fs_loopbacks:mounted_fs_loopbacks
+debug sytem:event_emitted:mounted_fs_loopbacks:mounted_fs_loopbacks
+info milestone:8.95:fs75:fs75
+info system:emiting_event:loaded_modules_dependencies:loaded_modules_dependencies
+debug sytem:event_emitted:loaded_modules_dependencies:loaded_modules_dependencies
+info modules:modprobe:loading module fsl_otg_arc:loading module fsl_otg_arc
+info system:emiting_event:loaded_fsl_otg_arc:loaded_fsl_otg_arc
+debug sytem:event_emitted:loaded_fsl_otg_arc:loaded_fsl_otg_arc
+info modules:modprobe:loading module ehci_hcd:loading module ehci_hcd
+info system:emiting_event:loaded_ehci_hcd:loaded_ehci_hcd
+debug sytem:event_emitted:loaded_ehci_hcd:loaded_ehci_hcd
+info modules:modprobe:loading module fuse:loading module fuse
+info system:emiting_event:loaded_fuse:loaded_fuse
+debug sytem:event_emitted:loaded_fuse:loaded_fuse
+info hardware:no_wan:: WiFi only device. No WAN found
+info milestone:9.25:fs00:fs00
+info system:emiting_event:loaded_ppp_async:loaded_ppp_async
+debug sytem:event_emitted:loaded_ppp_async:loaded_ppp_async
+info system:emiting_event:loaded_fakekey:loaded_fakekey
+info filesystems_keys:not applicable for this device type::
+debug sytem:event_emitted:loaded_fakekey:loaded_fakekey
+info filesystems_var_local:DB PARAMS:FreePageSize:98304 bytes. AvailableSpaceInVarLocal:42193 KB.:FreePageSize:98304 bytes. AvailableSpaceInVarLocal:42193 KB.
+info milestone:9.89:fs23:fs23
+info system:emiting_event:mounted_varLocal:mounted_varLocal
+debug sytem:event_emitted:mounted_varLocal:mounted_varLocal
+info milestone:9.95:fs25:fs25
+info milestone:10.00:vi00:vi00
+info prereg:PRAGMA_QUICK_CHECK_PASSED:: sts=0
+info userstore:run:time=10380,action=start:time=10380,action=start
+info display:update:Checking '/opt/eink/images/R186_ED060KD1C3' for overrides:Checking '/opt/eink/images/R186_ED060KD1C3' for overrides
+info userstore:start:found_bootup_flag:found_bootup_flag Found BOOTUP flag file
+info system:emiting_event:loaded_touch:loaded_touch
+debug sytem:event_emitted:loaded_touch:loaded_touch
+info system:emiting_event:mounted_userstore:mounted_userstore
+debug sytem:event_emitted:mounted_userstore:mounted_userstore
+info milestone:12.32:fs50:fs50
+info milestone:12.38:fs90:fs90
+info milestone:12.46:fs99:fs99
+info milestone:12.56:vi99:vi99
+info display:started:time=12580:time=12580
+info system:emiting_event:display_ready:display_ready
+debug sytem:event_emitted:display_ready:display_ready
+info battery:charged:cap=41,mV=3893,mAH=568:cap=41,mV=3893,mAH=568
+info system:emiting_event:battery_ready:battery_ready
+debug sytem:event_emitted:battery_ready:battery_ready
+info milestone:12.89:sys99:sys99
+info system_setup:system_setup_after_shpm done::
+info system:emiting_event:dbus_ready:dbus_ready
+debug sytem:event_emitted:dbus_ready:dbus_ready
+info dbus:check-update:status=2:status=2 dbus_ready sent
+info demd:starting...::
+info hardware:no_wan:: WiFi only device. No WAN found
+info milestone:14.32:dy01:dy01
+info milestone:14.83:dy02:dy02
+info milestone:14.84:dy03:dy03
+info milestone:15.24:xx00:xx00
+info X:load:time=15330:time=15330
+info X:xorg.conf:Generating xorg.conf:Generating xorg.conf
+info X:xorg.conf:xorg.conf generated:xorg.conf generated
+info milestone:17.09:xx50:xx50
+info X:starting:time=17150:time=17150
+info milestone:20.11:xx99:xx99
+info X:started:time=20160:time=20160
+info system:emiting_event:x_setup_ready:x_setup_ready
+debug sytem:event_emitted:x_setup_ready:x_setup_ready
+info asr_setup:Not in asr mode::reason=flag file not present. shutting down asr_setup::
+info locale:read:lang=en_US.utf8,lc_all=en_US.utf8:lang=en_US.utf8,lc_all=en_US.utf8 Retrieved Language
+info system:emiting_event:langpicker_ready:langpicker_ready LANG_PICKER_SCREEN_SHOWN=0
+debug sytem:event_emitted:langpicker_ready:langpicker_ready LANG_PICKER_SCREEN_SHOWN=0
+info ffsd:not a first boot after shipmode::
+info ffsd:stopped...::
+info blanket_f:module already loaded:splash:splash
+info system:emiting_event:start_splash:start_splash
+debug sytem:event_emitted:start_splash:start_splash
+info asr_bt_reboot:asr_bt_reboot begin on started winmgr_ready::
+info milestone:22.14:pi00:pi00
+info milestone:22.41:pi99:pi99
+info hardware:no_wan:: WiFi only device. No WAN found
+info board_data_file :/opt/ar6k/target/AR6003/hw2.1.1/bin/AR6003_wfo_calfile.bin::
+[   29.654081] ath6kl: ath6kl_fetch_board_file: Board calibration file fetched: /opt/ar6k/target/AR6003/hw2.1.1/bin/AR6003_wfo_calfile.bin
+[   29.711187] ath6kl: MAC from kernel xx:xx:xx:xx:xx:5F
+[   30.126724] ath6kl: host only supports scatter of :1 entries, need: 16
+info system:emiting_event:contentpack_font_ready:contentpack_font_ready
+debug sytem:event_emitted:contentpack_font_ready:contentpack_font_ready
+info milestone:32.59:fr00:fr00
+info milestone:32.71:fr50:fr50
+info milestone:32.75:fr51:fr51
+info framework:starting:time=33850:time=33850
+info framework:commandLine:HEAP = -minimal -Xmx33m -Xms33m -XX:MaxNewSize=4m -XX:SurvivorRatio=3 -XX:TargetSurvivorRatio=80 -Xss100k -XX:ReservedCodeCacheSize=3m -XX:+InitialGenPreTouch -XX:CompileThreshold=5000 -XX:CodeCacheMinimumFreeSpace=100k -XX:NmethodSweepFraction=6 -XX:NmethodSweepActivity=2 -XX:NmethodSweepMaxWaitTime=8 -XX:NmethodHotnessCounterResetValue=64 -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=15 -XX:+UseAggressiveHeapShrink -XX:MaxInlineSize=16 -XX:MaxInlineLevel=2 -XX:-InlineSynchronizedMethods:HEAP = -minimal -Xmx33m -Xms33m -XX:MaxNewSize=4m -XX:SurvivorRatio=3 -XX:TargetSurvivorRatio=80 -Xss100k -XX:ReservedCodeCacheSize=3m -XX:+InitialGenPreTouch -XX:CompileThreshold=5000 -XX:CodeCacheMinimumFreeSpace=100k -XX:NmethodSweepFraction=6 -XX:NmethodSweepActivity=2 -XX:NmethodSweepMaxWaitTime=8 -XX:NmethodHotnessCounterResetValue=64 -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=15 -XX:+UseAggressiveHeapShrink -XX:MaxInlineSize=16 -XX:MaxInlineLevel=2 -XX:-InlineSynchronizedMethods
+info hardware:no_wan:: WiFi only device. No WAN found
+info framework:##### Starting Java SE8 VM ::
